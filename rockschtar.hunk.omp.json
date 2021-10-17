@@ -9,13 +9,13 @@
       "segments": [
         {
           "type": "os",
-          "style": "diamond",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
           "background": "#c44569",
-          "leading_diamond": "\uE0B6",
-          "trailing_diamond": "",
+
           "properties": {
-            "prefix": "",
+            "prefix": " ",
             "windows": "\uE62A",
             "postfix": ""
           }
@@ -120,8 +120,8 @@
 
         {
           "type": "time",
-          "style": "diamond",
-          "trailing_diamond": "\uE0B4",
+          "style": "powerline",
+          "powerline_symbol": "\uE0B2",
           "invert_powerline": true,
           "foreground": "#ffffff",
           "background": "#33658A",
