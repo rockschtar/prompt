@@ -12,7 +12,7 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#33658A",
+          "background": "#05088d",
           "properties": {
             "prefix": " ",
             "windows": "\uE62A",
@@ -25,11 +25,11 @@
           "style": "powerline",
           "powerline_symbol": "\uE0B0",
           "foreground": "#ffffff",
-          "background": "#33658A",
+          "background": "#05088d",
           "properties": {
             "prefix": "",
             "home_icon": "~",
-            "style": "mixed",
+            "style": "folder",
             "max_depth": 3
           }
         },
@@ -93,7 +93,8 @@
         {
           "type": "battery",
           "style": "powerline",
-          "powerline_symbol": "\uE0B0",
+          "powerline_symbol": "\uE0B2",
+          "invert_powerline": true,
           "foreground": "#193549",
           "background": "#ffeb3b",
           "properties": {
@@ -142,7 +143,7 @@
           "powerline_symbol": "\uE0B2",
           "invert_powerline": true,
           "foreground": "#ffffff",
-          "background": "#33658A",
+          "background": "#05088d",
           "properties": {
             "prefix": " ",
             "postfix": " "
