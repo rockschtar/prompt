@@ -16,7 +16,7 @@
           "properties": {
             "prefix": " ",
             "windows": "\uE62A",
-            "postfix": "",
+            "postfix": " ",
             "wsl": "\uF17C"
           }
         },
