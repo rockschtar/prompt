@@ -1,8 +1,10 @@
 Function WhatIsMyIPCommand {Invoke-RestMethod ipinfo.io/ip}
 Function WttrCommand {Invoke-RestMethod http://wttr.in}
+Function SpeedtestCommand {wsl speedtest}
 
 Set-Alias -Name whatismyip -Value WhatIsMyIPCommand
 Set-Alias -Name wttr -Value WttrCommand
+Set-Alias -Name speedtest -Value SpeedtestCommand
 Import-Module PowerColorLS
 
 Invoke-Expression (& {
