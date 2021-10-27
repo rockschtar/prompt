@@ -1,6 +1,6 @@
 # rockschtar/prompt
 
-### Prequistes
+### Prerequisites
 - [Oh My Posh](https://ohmyposh.dev/)
 - [winget](https://docs.microsoft.com/en-us/windows/package-manager/winget/)
 - [scoop](https://scoop.sh/)
