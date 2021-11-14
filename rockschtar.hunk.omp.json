@@ -132,7 +132,7 @@
           "foreground": "#FFD700",
           "background": "#86BBD8",
           "properties": {
-            "prefix": " ",
+            "prefix": "",
             "postfix": "",
             "root_icon": "⚡"
           }

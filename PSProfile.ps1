@@ -19,3 +19,5 @@ Invoke-Expression (& {
     })
 
 oh-my-posh --init --shell pwsh --config ~\prompt\rockschtar.hunk.omp.json | Invoke-Expression
+
+winfetch
