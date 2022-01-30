@@ -18,6 +18,9 @@ Invoke-Expression (& {
     (zoxide init --hook $hook powershell) -join "`n"
     })
 
-oh-my-posh --init --shell pwsh --config ~\prompt\rockschtar.hunk.omp.json | Invoke-Expression
+Import-Module PSReadLine
+Set-PSReadLineOption -PredictionSource History
+Set-PSReadLineOption -PredictionViewStyle ListView
+Set-PSReadLineOption -EditMode Windows
 
-winfetch
+oh-my-posh --init --shell pwsh --config ~\prompt\rockschtar.hunk.omp.json | Invoke-Expression
